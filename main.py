@@ -10,14 +10,14 @@ svc = svm.SVC(gamma=0.001, C=100.)
 # 8x8 pixel images
 digits = datasets.load_digits()
 
-# print(digits.DESCR)
+#print(digits.DESCR)
 
 # Image 0 = white, 15 = black
-# digits.images[0] --> Gives an array of one of the images
-
+# print(digits.images[0]) # --> Gives an array of one of the images
 
 # Display the figure using matplotlib
 # plt.imshow(digits.images[0], cmap=plt.cm.gray_r, interpolation='nearest')
+# plt.show()
 
 # What its supposed to be  :
 # digits.target
